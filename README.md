@@ -1,5 +1,4 @@
 # CIRCUITOS IMPRESSOS
 
 - Exercícios Kicad
-- Descrições do projeto
-- Teste
+- Projeto
