@@ -1,1 +1,4 @@
-# CIRCUITOS_IMPRESSOS
+# CIRCUITOS IMPRESSOS
+
+- Exercícios Kicad
+- Descrições do projeto
