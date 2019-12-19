@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import.lib)(options "")(descr ""))
+  (lib (name Adafruit-128x64-Mono-OLED-PCB-v2-rescue)(type Legacy)(uri "${KIPRJMOD}/Adafruit 128x64 Mono OLED PCB v2-rescue.lib")(options "")(descr ""))
+)
