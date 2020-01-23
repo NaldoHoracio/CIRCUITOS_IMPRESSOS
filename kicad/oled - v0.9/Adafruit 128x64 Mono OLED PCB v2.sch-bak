@@ -14,82 +14,51 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 6850 6545 0    70   ~ 0
-D0/SCLK/SCK_3.3V
-Text Label 6850 6645 0    70   ~ 0
-D1/MOSI/SDA1_3.3V
-Text Label 8090 5945 0    10   ~ 0
-GND
-Text Label 8090 4845 0    10   ~ 0
-GND
-Text Label 8090 7745 0    10   ~ 0
-GND
-Text Label 8090 7645 0    10   ~ 0
-GND
-Text Label 8090 5545 0    10   ~ 0
-GND
-Text Label 8090 5645 0    10   ~ 0
-3.3V
-Text Notes 7150 6835 0    59   ~ 0
-Close for
-Text Notes 7320 6905 0    59   ~ 0
-I2C
-Text Notes 6055 4945 0    100  ~ 20
-OLED Display 128x64\nSSD1306
-Text Notes 10265 6160 0    87   ~ 17
+Text Notes 8065 6080 0    87   ~ 17
 LEGENDA
-Text Notes 10275 6300 0    50   ~ 0
+Text Notes 8075 6220 0    50   ~ 0
 RedLed - Led do freio
-Text Notes 10275 6420 0    50   ~ 0
+Text Notes 8075 6340 0    50   ~ 0
 LedYellowL - Led da seta esquerda
-Text Notes 10275 6560 0    50   ~ 0
+Text Notes 8075 6480 0    50   ~ 0
 LedYellowR - Led da seta direita
-Text Notes 10275 6690 0    50   ~ 0
+Text Notes 8075 6610 0    50   ~ 0
 LedWhite1A - Led 1 do farol dianteiro
-Text Notes 10275 6800 0    50   ~ 0
+Text Notes 8075 6720 0    50   ~ 0
 LedWhite1B - Led 2 do farol dianteiro
-Text Notes 10275 6940 0    50   ~ 0
+Text Notes 8075 6860 0    50   ~ 0
 LedWhite2A - Led 1 do farol traseiro
-Text Notes 10275 7070 0    50   ~ 0
+Text Notes 8075 6990 0    50   ~ 0
 LedWhite2B - Led 2 do farol traseiro
-Text Notes 10275 7190 0    50   ~ 0
+Text Notes 8075 7110 0    50   ~ 0
 ButtonLeft - Botão da seta esquerda
-Text Notes 10275 7330 0    50   ~ 0
+Text Notes 8075 7250 0    50   ~ 0
 ButtonRight - Botão da seta direita
-Text Notes 10275 7590 0    50   ~ 0
+Text Notes 8075 7510 0    50   ~ 0
 ReedSwitch1 - Reed switch da roda
-Text Notes 10275 7720 0    50   ~ 0
+Text Notes 8075 7640 0    50   ~ 0
 ReedSwitch2A - Reed switch do freio esquerdo
-Text Notes 10275 7840 0    50   ~ 0
+Text Notes 8075 7760 0    50   ~ 0
 ReedSwitch2B - Reed switch do freio direito
-Text Notes 10285 7960 0    50   ~ 0
+Text Notes 8085 7880 0    50   ~ 0
 LDR1A - LDR dianteiro
-NoConn ~ 8090 6845
-NoConn ~ 8090 6945
-NoConn ~ 8090 7045
-NoConn ~ 8090 7145
-NoConn ~ 8090 7245
-NoConn ~ 8090 6345
-NoConn ~ 8090 6445
-Text GLabel 6840 6545 0    50   Input ~ 0
-CLK-I2C
-Text Notes 10285 8100 0    50   ~ 0
+Text Notes 8085 8020 0    50   ~ 0
 LDR1B - LDR traseiro
-Text Notes 10275 7460 0    50   ~ 0
+Text Notes 8075 7380 0    50   ~ 0
 ButtonRSTLCD - Botão de reset do LCD
 Wire Bus Line
-	12145 6000 12145 8120
+	9945 5920 9945 8040
 Wire Bus Line
-	12145 8120 10235 8120
+	9945 8040 8035 8040
 Wire Bus Line
-	10235 8120 10235 6000
+	8035 8040 8035 5920
 Wire Bus Line
-	10235 6000 12145 6000
+	8035 5920 9945 5920
 Text Notes 1695 1455 0    100  ~ 20
 MCU nRF52832-QFAA-R7
 Text GLabel 3590 5465 3    50   Input ~ 0
 ButtonRSTLCD
-Text GLabel 1935 4865 0    50   Input ~ 0
+Text GLabel 1940 4365 0    50   Input ~ 0
 ButtonLeft
 Text GLabel 3490 5465 3    50   Input ~ 0
 ReedSwitch1
@@ -97,11 +66,11 @@ Text GLabel 3390 5465 3    50   Input ~ 0
 ReedSwitch2A
 Text GLabel 3290 5465 3    50   Input ~ 0
 ReedSwitch2B
-Text GLabel 1940 4665 0    50   Input ~ 0
+Text GLabel 1940 4165 0    50   Input ~ 0
 LDR1A
-Text GLabel 1940 4565 0    50   Input ~ 0
+Text GLabel 1940 4065 0    50   Input ~ 0
 LDR1B
-Text GLabel 1935 4765 0    50   Input ~ 0
+Text GLabel 1940 4265 0    50   Input ~ 0
 ButtonRight
 Text GLabel 2590 5465 3    50   Input ~ 0
 LedRed
@@ -117,10 +86,10 @@ Text GLabel 3090 5465 3    50   Input ~ 0
 LedWhite2A
 Text GLabel 3190 5465 3    50   Input ~ 0
 LedWhite2B
-Text GLabel 4090 4865 2    50   Input ~ 0
+Text GLabel 1940 4565 0    50   Input ~ 0
 CLK-I2C
-Text GLabel 4090 4765 2    50   Input ~ 0
-SDA-I2C
+Text GLabel 1940 4465 0    50   Input ~ 0
+DATA-I2C
 Text GLabel 11715 1455 3    50   Input ~ 0
 ReedSwitch2B
 $Comp
@@ -134,87 +103,6 @@ F 3 "" H 11715 805 50  0001 C CNN
 	1    11715 805 
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8090 6045
-NoConn ~ 8090 6145
-NoConn ~ 8090 6245
-$Comp
-L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:SOLDERJUMPERREFLOW_NOPASTE SJ1
-U 1 1 666E743F
-P 7690 6745
-F 0 "SJ1" H 7590 6625 59  0000 L BNN
-F 1 "-" H 7590 6595 59  0000 L BNN
-F 2 "Adafruit 128x64 Mono OLED PCB v2:SOLDERJUMPER_REFLOW_NOPASTE" H 7690 6745 50  0001 C CNN
-F 3 "" H 7690 6745 50  0001 C CNN
-	1    7690 6745
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8090 6745 7890 6745
-Wire Wire Line
-	7490 6745 7380 6745
-Wire Wire Line
-	7380 6745 7380 6645
-Connection ~ 7380 6645
-Wire Wire Line
-	7380 6645 8090 6645
-Text GLabel 6840 6645 0    50   Input ~ 0
-SDA-I2C
-Wire Wire Line
-	6840 6545 8090 6545
-Wire Wire Line
-	6840 6645 7380 6645
-NoConn ~ 8090 5945
-NoConn ~ 8090 5845
-NoConn ~ 8090 5745
-NoConn ~ 8090 4945
-NoConn ~ 8090 5045
-NoConn ~ 8090 5145
-$Comp
-L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:DISP_OLED_UG-2864HSWEG010.96" U1
-U 1 1 FEEBACA6
-P 9090 6245
-F 0 "U1" H 8190 7845 50  0000 L BNN
-F 1 "UG-2864HSWEG01" H 8190 4545 50  0000 L BNN
-F 2 "Adafruit 128x64 Mono OLED PCB v2:UG-2864HSWEG01_0.96IN_WRAPAROUND" H 9090 6245 50  0001 C CNN
-F 3 "" H 9090 6245 50  0001 C CNN
-	1    9090 6245
-	1    0    0    -1  
-$EndComp
-$Comp
-L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:GND #U$019
-U 1 1 1DEA58DA
-P 7990 7845
-F 0 "#U$019" H 7990 7845 50  0001 C CNN
-F 1 "GND" H 7930 7745 42  0000 L BNN
-F 2 "" H 7990 7845 50  0001 C CNN
-F 3 "" H 7990 7845 50  0001 C CNN
-	1    7990 7845
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8090 7745 7990 7745
-NoConn ~ 8090 7345
-NoConn ~ 8090 7445
-NoConn ~ 8090 7645
-NoConn ~ 8090 5545
-NoConn ~ 8090 5345
-NoConn ~ 8090 5245
-$Comp
-L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:GND #U$01
-U 1 1 5E2F5168
-P 7990 4945
-F 0 "#U$01" H 7990 4945 50  0001 C CNN
-F 1 "GND" H 7930 4865 42  0000 L BNN
-F 2 "" H 7990 4945 50  0001 C CNN
-F 3 "" H 7990 4945 50  0001 C CNN
-	1    7990 4945
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8090 4845 7990 4845
-Text GLabel 8090 7545 0    50   Input ~ 0
-VDD-LCD
-NoConn ~ 8090 5645
 $Comp
 L Device:C_Small C1
 U 1 1 5DFD8837
@@ -926,130 +814,88 @@ Wire Wire Line
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 5E144457
-P 11420 4860
-F 0 "BT1" H 11538 4956 50  0000 L CNN
-F 1 "Battery_Cell" H 11538 4865 50  0000 L CNN
-F 2 "" V 11420 4920 50  0001 C CNN
-F 3 "~" V 11420 4920 50  0001 C CNN
-	1    11420 4860
+P 9220 4780
+F 0 "BT1" H 9338 4876 50  0000 L CNN
+F 1 "Battery_Cell" H 9338 4785 50  0000 L CNN
+F 2 "" V 9220 4840 50  0001 C CNN
+F 3 "~" V 9220 4840 50  0001 C CNN
+	1    9220 4780
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:GND #0102
 U 1 1 5E145B91
-P 11420 5060
-F 0 "#0102" H 11470 5110 50  0001 C CNN
-F 1 "GND" H 11498 5098 42  0000 L CNN
-F 2 "" H 11420 5060 50  0001 C CNN
-F 3 "" H 11420 5060 50  0001 C CNN
-	1    11420 5060
+P 9220 4980
+F 0 "#0102" H 9270 5030 50  0001 C CNN
+F 1 "GND" H 9298 5018 42  0000 L CNN
+F 2 "" H 9220 4980 50  0001 C CNN
+F 3 "" H 9220 4980 50  0001 C CNN
+	1    9220 4980
 	1    0    0    -1  
 $EndComp
-Text GLabel 11420 4660 0    50   Input ~ 0
+Text GLabel 9220 4580 0    50   Input ~ 0
 VDD-MCU
-Text Notes 10325 4925 0    71   ~ 0
+Text Notes 8125 4845 0    71   ~ 0
 Bateria\nMCU
-Text Notes 10325 5725 0    59   ~ 0
+Text Notes 8125 5645 0    59   ~ 0
 Alimentação \ndos periféricos\nVCC
-Text GLabel 11420 5415 0    50   Input ~ 0
+Text GLabel 9220 5335 0    50   Input ~ 0
 VCC
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:GND #01
 U 1 1 5E280FF0
-P 11420 5815
-F 0 "#01" H 11470 5865 50  0001 C CNN
-F 1 "GND" H 11498 5853 42  0000 L CNN
-F 2 "" H 11420 5815 50  0001 C CNN
-F 3 "" H 11420 5815 50  0001 C CNN
-	1    11420 5815
+P 9220 5735
+F 0 "#01" H 9270 5785 50  0001 C CNN
+F 1 "GND" H 9298 5773 42  0000 L CNN
+F 2 "" H 9220 5735 50  0001 C CNN
+F 3 "" H 9220 5735 50  0001 C CNN
+	1    9220 5735
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Battery_Cell BT2
 U 1 1 5E280FEA
-P 11420 5615
-F 0 "BT2" H 11538 5711 50  0000 L CNN
-F 1 "Battery_Cell" H 11538 5620 50  0000 L CNN
-F 2 "" V 11420 5675 50  0001 C CNN
-F 3 "~" V 11420 5675 50  0001 C CNN
-	1    11420 5615
+P 9220 5535
+F 0 "BT2" H 9338 5631 50  0000 L CNN
+F 1 "Battery_Cell" H 9338 5540 50  0000 L CNN
+F 2 "" V 9220 5595 50  0001 C CNN
+F 3 "~" V 9220 5595 50  0001 C CNN
+	1    9220 5535
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	10240 5945 12145 5945
+	8040 5865 9945 5865
 Wire Bus Line
-	12145 4475 12145 5225
+	9945 4395 9945 5145
 Wire Bus Line
-	10245 5225 12145 5225
-Connection ~ 12145 5225
+	8045 5145 9945 5145
+Connection ~ 9945 5145
 Wire Bus Line
-	12145 5225 12145 5945
+	9945 5145 9945 5865
 Wire Bus Line
-	10235 5945 10235 4475
+	8035 5865 8035 4395
 Wire Bus Line
-	10235 4475 12145 4475
-$Comp
-L Device:Battery_Cell BT3
-U 1 1 5E303C85
-P 7350 5745
-F 0 "BT3" H 7468 5841 50  0000 L CNN
-F 1 "Battery_Cell" H 7468 5750 50  0000 L CNN
-F 2 "" V 7350 5805 50  0001 C CNN
-F 3 "~" V 7350 5805 50  0001 C CNN
-	1    7350 5745
-	1    0    0    -1  
-$EndComp
-$Comp
-L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:GND #02
-U 1 1 5E303C7F
-P 7350 5945
-F 0 "#02" H 7400 5995 50  0001 C CNN
-F 1 "GND" H 7428 5983 42  0000 L CNN
-F 2 "" H 7350 5945 50  0001 C CNN
-F 3 "" H 7350 5945 50  0001 C CNN
-	1    7350 5945
-	1    0    0    -1  
-$EndComp
-Text GLabel 7350 5545 0    50   Input ~ 0
-VDD-LCD
-Wire Bus Line
-	6340 5295 7950 5295
-Text Notes 6430 5820 0    80   ~ 0
-Bateria\nLCD
-Wire Bus Line
-	6340 5295 6340 6075
-Wire Bus Line
-	7950 6075 6340 6075
-Wire Bus Line
-	7950 5295 7950 6075
+	8035 4395 9945 4395
 Text Notes 8445 450  0    100  ~ 20
 Periféricos
-Wire Bus Line
-	10125 8125 5850 8125
-Wire Bus Line
-	5850 8125 5850 4480
-Wire Bus Line
-	10125 8125 10125 4480
-Wire Bus Line
-	10125 4480 5850 4480
 Wire Wire Line
 	1855 2990 1855 3090
 $Comp
-L Device:C_Small C?
+L Device:C_Small C5
 U 1 1 5E407EE3
 P 1855 2890
-F 0 "C?" H 1947 2936 50  0000 L CNN
-F 1 "100nF" H 1947 2845 50  0000 L CNN
+F 0 "C5" H 1947 2936 50  0000 L CNN
+F 1 "4.7uF" H 1947 2845 50  0000 L CNN
 F 2 "" H 1855 2890 50  0001 C CNN
 F 3 "~" H 1855 2890 50  0001 C CNN
 	1    1855 2890
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0101
 U 1 1 5E407EE9
 P 1855 3090
-F 0 "#PWR?" H 1855 2840 50  0001 C CNN
+F 0 "#PWR0101" H 1855 2840 50  0001 C CNN
 F 1 "GNDREF" H 1860 2917 50  0000 C CNN
 F 2 "" H 1855 3090 50  0001 C CNN
 F 3 "" H 1855 3090 50  0001 C CNN
@@ -1057,10 +903,10 @@ F 3 "" H 1855 3090 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C4
 U 1 1 5E315B48
 P 1270 2905
-F 0 "C?" H 1178 2859 50  0000 R CNN
+F 0 "C4" H 1178 2859 50  0000 R CNN
 F 1 "100nF" H 1178 2950 50  0000 R CNN
 F 2 "" H 1270 2905 50  0001 C CNN
 F 3 "~" H 1270 2905 50  0001 C CNN
@@ -1068,10 +914,10 @@ F 3 "~" H 1270 2905 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0102
 U 1 1 5E315B42
 P 1270 3105
-F 0 "#PWR?" H 1270 2855 50  0001 C CNN
+F 0 "#PWR0102" H 1270 2855 50  0001 C CNN
 F 1 "GNDREF" H 1275 2932 50  0000 C CNN
 F 2 "" H 1270 3105 50  0001 C CNN
 F 3 "" H 1270 3105 50  0001 C CNN
@@ -1091,10 +937,10 @@ Wire Wire Line
 Wire Wire Line
 	2490 2790 2490 3215
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0103
 U 1 1 5E50AA9E
 P 225 3580
-F 0 "#PWR?" H 225 3330 50  0001 C CNN
+F 0 "#PWR0103" H 225 3330 50  0001 C CNN
 F 1 "GNDREF" H 230 3407 50  0000 C CNN
 F 2 "" H 225 3580 50  0001 C CNN
 F 3 "" H 225 3580 50  0001 C CNN
@@ -1102,10 +948,10 @@ F 3 "" H 225 3580 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y?
+L Device:Crystal Y1
 U 1 1 5E50AAA4
 P 680 3255
-F 0 "Y?" V 634 3386 50  0000 L CNN
+F 0 "Y1" V 634 3386 50  0000 L CNN
 F 1 "32MHz" V 725 3386 50  0000 L CNN
 F 2 "" H 680 3255 50  0001 C CNN
 F 3 "~" H 680 3255 50  0001 C CNN
@@ -1113,10 +959,10 @@ F 3 "~" H 680 3255 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C2
 U 1 1 5E50AAAA
 P 225 3180
-F 0 "C?" H 317 3226 50  0000 L CNN
+F 0 "C2" H 317 3226 50  0000 L CNN
 F 1 "12pF" H 317 3135 50  0000 L CNN
 F 2 "" H 225 3180 50  0001 C CNN
 F 3 "~" H 225 3180 50  0001 C CNN
@@ -1124,10 +970,10 @@ F 3 "~" H 225 3180 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C3
 U 1 1 5E50AAB0
 P 475 3580
-F 0 "C?" V 246 3580 50  0000 C CNN
+F 0 "C3" V 246 3580 50  0000 C CNN
 F 1 "12pF" V 337 3580 50  0000 C CNN
 F 2 "" H 475 3580 50  0001 C CNN
 F 3 "~" H 475 3580 50  0001 C CNN
@@ -1164,41 +1010,35 @@ Wire Wire Line
 	680  3580 575  3580
 Connection ~ 225  3580
 $Comp
-L Device:L_Small L?
+L Device:L_Small L1
 U 1 1 5E557A00
-P 2215 2080
-F 0 "L?" H 2263 2126 50  0000 L CNN
-F 1 "15nH" H 2263 2035 50  0000 L CNN
-F 2 "" H 2215 2080 50  0001 C CNN
-F 3 "~" H 2215 2080 50  0001 C CNN
-	1    2215 2080
+P 2590 2015
+F 0 "L1" H 2638 2061 50  0000 L CNN
+F 1 "15nH" H 2638 1970 50  0000 L CNN
+F 2 "" H 2590 2015 50  0001 C CNN
+F 3 "~" H 2590 2015 50  0001 C CNN
+	1    2590 2015
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:L_Small L?
+L Device:L_Small L2
 U 1 1 5E557A07
-P 2215 2375
-F 0 "L?" H 2263 2421 50  0000 L CNN
-F 1 "10uH" H 2263 2330 50  0000 L CNN
-F 2 "" H 2215 2375 50  0001 C CNN
-F 3 "~" H 2215 2375 50  0001 C CNN
-	1    2215 2375
+P 2590 2310
+F 0 "L2" H 2638 2356 50  0000 L CNN
+F 1 "10uH" H 2638 2265 50  0000 L CNN
+F 2 "" H 2590 2310 50  0001 C CNN
+F 3 "~" H 2590 2310 50  0001 C CNN
+	1    2590 2310
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2590 3215 2590 2545
-Wire Wire Line
-	2590 2545 2215 2545
-Wire Wire Line
-	2215 2545 2215 2475
-Wire Wire Line
-	2215 2275 2215 2180
+	2590 2210 2590 2115
 $Comp
-L Device:C_Small C?
+L Device:C_Small C7
 U 1 1 5E585C60
 P 2980 1980
-F 0 "C?" H 3072 2026 50  0000 L CNN
-F 1 "1mF" H 3072 1935 50  0000 L CNN
+F 0 "C7" H 3072 2026 50  0000 L CNN
+F 1 "1.0uF" H 3072 1935 50  0000 L CNN
 F 2 "" H 2980 1980 50  0001 C CNN
 F 3 "~" H 2980 1980 50  0001 C CNN
 	1    2980 1980
@@ -1211,10 +1051,10 @@ Wire Wire Line
 Wire Wire Line
 	2980 2130 2980 2080
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0104
 U 1 1 5E58C793
 P 2980 2130
-F 0 "#PWR?" H 2980 1880 50  0001 C CNN
+F 0 "#PWR0104" H 2980 1880 50  0001 C CNN
 F 1 "GNDREF" H 2985 1957 50  0000 C CNN
 F 2 "" H 2980 2130 50  0001 C CNN
 F 3 "" H 2980 2130 50  0001 C CNN
@@ -1225,10 +1065,6 @@ Connection ~ 2980 2130
 Wire Wire Line
 	2980 1880 2980 1835
 Wire Wire Line
-	2980 1790 2215 1790
-Wire Wire Line
-	2215 1790 2215 1980
-Wire Wire Line
 	2690 3215 2690 1835
 Wire Wire Line
 	2690 1835 2980 1835
@@ -1236,10 +1072,10 @@ Connection ~ 2980 1835
 Wire Wire Line
 	2980 1835 2980 1790
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0105
 U 1 1 5E2997FA
 P 1855 2790
-F 0 "#PWR?" H 1855 2640 50  0001 C CNN
+F 0 "#PWR0105" H 1855 2640 50  0001 C CNN
 F 1 "VDD" H 1872 2963 50  0000 C CNN
 F 2 "" H 1855 2790 50  0001 C CNN
 F 3 "" H 1855 2790 50  0001 C CNN
@@ -1250,10 +1086,10 @@ Connection ~ 1855 2790
 Wire Wire Line
 	2035 5910 2035 6010
 $Comp
-L Device:C_Small C?
+L Device:C_Small C6
 U 1 1 5E2A4569
 P 2035 5810
-F 0 "C?" H 2127 5856 50  0000 L CNN
+F 0 "C6" H 2127 5856 50  0000 L CNN
 F 1 "100nF" H 2127 5765 50  0000 L CNN
 F 2 "" H 2035 5810 50  0001 C CNN
 F 3 "~" H 2035 5810 50  0001 C CNN
@@ -1261,10 +1097,10 @@ F 3 "~" H 2035 5810 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0106
 U 1 1 5E2A456F
 P 2035 6010
-F 0 "#PWR?" H 2035 5760 50  0001 C CNN
+F 0 "#PWR0106" H 2035 5760 50  0001 C CNN
 F 1 "GNDREF" H 2040 5837 50  0000 C CNN
 F 2 "" H 2035 6010 50  0001 C CNN
 F 3 "" H 2035 6010 50  0001 C CNN
@@ -1276,10 +1112,10 @@ Wire Wire Line
 Wire Wire Line
 	2490 5590 2035 5590
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0107
 U 1 1 5E2B54A6
 P 2035 5590
-F 0 "#PWR?" H 2035 5440 50  0001 C CNN
+F 0 "#PWR0107" H 2035 5440 50  0001 C CNN
 F 1 "VDD" H 2052 5763 50  0000 C CNN
 F 2 "" H 2035 5590 50  0001 C CNN
 F 3 "" H 2035 5590 50  0001 C CNN
@@ -1287,10 +1123,10 @@ F 3 "" H 2035 5590 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C8
 U 1 1 5E2CC267
 P 4345 3400
-F 0 "C?" H 4437 3446 50  0000 L CNN
+F 0 "C8" H 4437 3446 50  0000 L CNN
 F 1 "100nF" H 4437 3355 50  0000 L CNN
 F 2 "" H 4345 3400 50  0001 C CNN
 F 3 "~" H 4345 3400 50  0001 C CNN
@@ -1302,10 +1138,10 @@ Wire Wire Line
 Wire Wire Line
 	4135 3765 4135 3300
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0108
 U 1 1 5E2DBBA2
 P 4135 3300
-F 0 "#PWR?" H 4135 3150 50  0001 C CNN
+F 0 "#PWR0108" H 4135 3150 50  0001 C CNN
 F 1 "VDD" H 4152 3473 50  0000 C CNN
 F 2 "" H 4135 3300 50  0001 C CNN
 F 3 "" H 4135 3300 50  0001 C CNN
@@ -1319,10 +1155,10 @@ Wire Wire Line
 	2035 5710 2035 5590
 Connection ~ 2035 5590
 $Comp
-L Device:C_Small C?
+L Device:C_Small C10
 U 1 1 5E30447F
 P 5130 2500
-F 0 "C?" V 5232 2446 50  0000 L CNN
+F 0 "C10" V 5232 2446 50  0000 L CNN
 F 1 "12pF" V 5012 2395 50  0000 L CNN
 F 2 "" H 5130 2500 50  0001 C CNN
 F 3 "~" H 5130 2500 50  0001 C CNN
@@ -1330,10 +1166,10 @@ F 3 "~" H 5130 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C12
 U 1 1 5E30C5BC
 P 5135 3065
-F 0 "C?" V 5237 3011 50  0000 L CNN
+F 0 "C12" V 5237 3011 50  0000 L CNN
 F 1 "12pF" V 5017 2960 50  0000 L CNN
 F 2 "" H 5135 3065 50  0001 C CNN
 F 3 "~" H 5135 3065 50  0001 C CNN
@@ -1341,10 +1177,10 @@ F 3 "~" H 5135 3065 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Crystal Y?
+L Device:Crystal Y2
 U 1 1 5E314584
 P 4830 2790
-F 0 "Y?" V 4784 2971 50  0000 L CNN
+F 0 "Y2" V 4784 2971 50  0000 L CNN
 F 1 "32MHz" V 4875 2921 50  0000 L CNN
 F 2 "" H 4830 2790 50  0001 C CNN
 F 3 "~" H 4830 2790 50  0001 C CNN
@@ -1352,10 +1188,10 @@ F 3 "~" H 4830 2790 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0109
 U 1 1 5E33CB08
 P 5400 3065
-F 0 "#PWR?" H 5400 2815 50  0001 C CNN
+F 0 "#PWR0109" H 5400 2815 50  0001 C CNN
 F 1 "GNDREF" H 5405 2892 50  0000 C CNN
 F 2 "" H 5400 3065 50  0001 C CNN
 F 3 "" H 5400 3065 50  0001 C CNN
@@ -1374,10 +1210,10 @@ Wire Wire Line
 	5400 2500 5400 3065
 Connection ~ 5400 3065
 $Comp
-L Device:C_Small C?
+L Device:C_Small C13
 U 1 1 5E3D31E7
 P 5135 3445
-F 0 "C?" V 5237 3391 50  0000 L CNN
+F 0 "C13" V 5237 3391 50  0000 L CNN
 F 1 "100pF" V 5017 3340 50  0000 L CNN
 F 2 "" H 5135 3445 50  0001 C CNN
 F 3 "~" H 5135 3445 50  0001 C CNN
@@ -1385,10 +1221,10 @@ F 3 "~" H 5135 3445 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C11
 U 1 1 5E3DB8DA
 P 5130 3830
-F 0 "C?" V 5232 3776 50  0000 L CNN
+F 0 "C11" V 5232 3776 50  0000 L CNN
 F 1 "N.C." V 5012 3725 50  0000 L CNN
 F 2 "" H 5130 3830 50  0001 C CNN
 F 3 "~" H 5130 3830 50  0001 C CNN
@@ -1396,10 +1232,10 @@ F 3 "~" H 5130 3830 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0110
 U 1 1 5E3E479F
 P 4345 3590
-F 0 "#PWR?" H 4345 3340 50  0001 C CNN
+F 0 "#PWR0110" H 4345 3340 50  0001 C CNN
 F 1 "GNDREF" H 4350 3417 50  0000 C CNN
 F 2 "" H 4345 3590 50  0001 C CNN
 F 3 "" H 4345 3590 50  0001 C CNN
@@ -1421,10 +1257,10 @@ Wire Wire Line
 Wire Wire Line
 	4950 3830 5030 3830
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0111
 U 1 1 5E4115D8
 P 5395 3975
-F 0 "#PWR?" H 5395 3725 50  0001 C CNN
+F 0 "#PWR0111" H 5395 3725 50  0001 C CNN
 F 1 "GNDREF" H 5400 3802 50  0000 C CNN
 F 2 "" H 5395 3975 50  0001 C CNN
 F 3 "" H 5395 3975 50  0001 C CNN
@@ -1452,10 +1288,10 @@ F 3 "~" H 5150 4365 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C9
 U 1 1 5E43B6A7
 P 4900 4590
-F 0 "C?" H 4992 4636 50  0000 L CNN
+F 0 "C9" H 4992 4636 50  0000 L CNN
 F 1 "0.8pF" H 4992 4545 50  0000 L CNN
 F 2 "" H 4900 4590 50  0001 C CNN
 F 3 "~" H 4900 4590 50  0001 C CNN
@@ -1470,10 +1306,10 @@ Connection ~ 4900 4365
 Wire Wire Line
 	4900 4365 5050 4365
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0112
 U 1 1 5E461BD7
 P 4900 4735
-F 0 "#PWR?" H 4900 4485 50  0001 C CNN
+F 0 "#PWR0112" H 4900 4485 50  0001 C CNN
 F 1 "GNDREF" H 4905 4562 50  0000 C CNN
 F 2 "" H 4900 4735 50  0001 C CNN
 F 3 "" H 4900 4735 50  0001 C CNN
@@ -1504,11 +1340,6 @@ NoConn ~ 3590 3215
 NoConn ~ 4090 4465
 NoConn ~ 4090 4565
 NoConn ~ 4090 4665
-NoConn ~ 1940 4065
-NoConn ~ 1940 4165
-NoConn ~ 1940 4265
-NoConn ~ 1940 4365
-NoConn ~ 1940 4465
 Wire Wire Line
 	4705 2500 4830 2500
 Wire Wire Line
@@ -1526,10 +1357,10 @@ Connection ~ 4830 3065
 Wire Wire Line
 	4830 3065 4830 2940
 $Comp
-L Adafruit-128x64-Mono-OLED-PCB-v2-rescue:nRF52832-QFxxX U?
+L Adafruit-128x64-Mono-OLED-PCB-v2-rescue:nRF52832-QFxxX U1
 U 1 1 5E297969
 P 3040 4315
-F 0 "U?" H 2994 4336 50  0000 L CNN
+F 0 "U1" H 2994 4336 50  0000 L CNN
 F 1 "nRF52832-QFxxX" H 2734 4245 50  0000 L CNB
 F 2 "" H 3040 4365 50  0001 C CNN
 F 3 "" H 3040 4365 50  0001 C CNN
@@ -1552,4 +1383,17 @@ Wire Bus Line
 	5655 6410 5655 1255
 Wire Bus Line
 	5655 1255 75   1255
+Text GLabel 1940 4765 0    50   Input ~ 0
+CS-I2C
+Text GLabel 1940 4665 0    50   Input ~ 0
+SA0-I2C
+NoConn ~ 1940 4865
+NoConn ~ 4090 4765
+NoConn ~ 4090 4865
+Wire Wire Line
+	2590 3215 2590 2410
+Wire Wire Line
+	2590 1915 2590 1790
+Wire Wire Line
+	2590 1790 2980 1790
 $EndSCHEMATC
